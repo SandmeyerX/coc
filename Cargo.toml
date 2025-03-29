@@ -15,11 +15,11 @@ rust-version = "1.85.0"
 readme = "README.md"
 license = "MIT"
 categories = [
-    "command-line-utilities",
-    "development-tools::cargo-plugins",
-    "macros", 
-    "code-generation",
-    "api-bindings"
+    "rust-patterns",
+    "data-structures",
+    "asynchronous",
+    "no-std",
+    "no-std::no-alloc",
 ]
 publish = true
 
