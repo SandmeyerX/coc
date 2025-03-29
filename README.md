@@ -11,13 +11,15 @@ Makes both the struct itself and all its fields publicly accessible.
 
 ## Example
  ```rust
- pub struct Point {
-     pub x: i32,
-     pub y: i32, 
+pub struct Foo {
+    a: i32,
+    b: i32, 
 }
 
 // External code can:
-let p = Point { x: 5, y: 10 };
+let foo = Foo { a: 2, b: 10 };
+assert_eq!(foo.a, 2);
+assert_eq!(foo.b, 10);
  ```
 
 ## Note
