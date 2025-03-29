@@ -1,0 +1,28 @@
+[lib]
+proc-macro = true
+
+[package]
+name = "coc"
+version = "0.1.0"
+authors = ["sandm_x@outlook.com"]
+
+description = "A useful macro collections for struct"
+keywords = ["macro", "struct", "field", "public", "collect"]
+repository = "https://github.com/SandmeyerX/coc"
+
+edition = "2024"
+rust-version = "1.85.0"
+readme = "README.md"
+license = "MIT"
+categories = [
+    "rust-patterns",
+    "data-structures",
+    "asynchronous",
+    "no-std",
+    "no-std::no-alloc",
+]
+publish = true
+
+[dependencies]
+quote = "1.0.40"
+syn = { version = "2.0.100", features = ["full"] }
